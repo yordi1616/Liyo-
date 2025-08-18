@@ -4,7 +4,6 @@ from datetime import datetime, timedelta
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your_very_secret_key_for_this_hamster_kombat_clone_game'
-# Note: Since we are not using a database, SQLALCHEMY_DATABASE_URI is removed.
 
 # --- Game Configuration ---
 # Upgrades for 'Earn' page (per-tap profit)
